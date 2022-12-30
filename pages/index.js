@@ -87,7 +87,7 @@ const callGenerateEndpoint = async () => {
             <Image src={buildspaceLogo} alt="buildspace logo" />
             <p>build with buildspace</p>
           </div>
-          <div style="position: absolute; bottom: 0; right: 0;">Built by John</div>
+          <div style="position: absolute; bottom: 0; right: 0; color: white;">built by John</div>
         </a>
       </div>
     </div>
