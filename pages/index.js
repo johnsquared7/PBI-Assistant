@@ -79,7 +79,7 @@ const callGenerateEndpoint = async () => {
 )}
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://buildspace.so"
           target="_blank"
           rel="noreferrer"
         >
