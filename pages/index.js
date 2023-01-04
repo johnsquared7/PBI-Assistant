@@ -39,9 +39,10 @@ const callGenerateEndpoint = async () => {
             <h1>Power BI DAX Assistant!</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Hate writing complex DAX for PowerBI? 
-            <br/>Ask for help in plain English and the assitant will write the DAX for you!
-              <br/>  Unsure how a function works? Ask the assistant to explain it!</h2>
+            <h2>Eliminate the hassle of writing complex DAX for PowerBI with the help of AI. 
+
+            <br/><br/>Simply ask for assistance in plain English and the assistant will generate the DAX code for you.
+            <br/><br/>Don't understand how a particular function works? Just ask the assistant to explain it to you!</h2>
           </div>
         </div>
         {/* Add this code here*/}
