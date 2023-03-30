@@ -64,12 +64,12 @@
 
 <div class="flex flex-col pt-4 w-full px-8 items-center gap-2">
 	<div>
-		<h1 class="text-2xl font-bold w-full text-center">Diagnoser</h1>
-		<p class="text-sm italic text-center">Powered by AI</p>
+		<h1 class="text-2xl font-bold w-full text-center">Power BI Assistant</h1>
+		<p class="text-sm italic text-center">Powered by GPT 3.5</p>
 	</div>
 	<div class="h-[500px] w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
-			<ChatMessage type="assistant" message="Hi Doctor, What Speciality do you work in?" />
+			<ChatMessage type="assistant" message="Hi, what can I help you with in Power BI?" />
 			{#each chatMessages as message}
 				<ChatMessage type={message.role} message={message.content} />
 			{/each}
